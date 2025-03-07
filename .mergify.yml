@@ -1,7 +1,0 @@
-merge_protections:
-  - name: Merge during working hoursMajid2
-    description: Make sure to merge only during working hours
-    if:
-      - base = main
-    success_conditions:
-      - schedule = Mon-Fri 09:00-17:00[America/Chicago]
